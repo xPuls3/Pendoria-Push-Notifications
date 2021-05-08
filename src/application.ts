@@ -26,6 +26,7 @@ export class Application {
 
         if (await document.hasFocus()) return;
         if (Number(id) === 0) return;
+        if (isNaN(id)) return;
         if (channel === "/global") return;
 
         if (channel.startsWith("guild/")) channel = "/guild";
