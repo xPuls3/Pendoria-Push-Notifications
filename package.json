@@ -1,0 +1,25 @@
+{
+    "name": "pendoria-push-notifications",
+    "version": "0.1.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "build": "npx webpack",
+        "lint": "npx eslint . --ext .ts --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Puls3",
+    "license": "ISC",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.7.0",
+        "@typescript-eslint/parser": "^4.7.0",
+        "eslint": "^7.13.0",
+        "eslint-webpack-plugin": "^2.3.0",
+        "ts-loader": "^8.0.11",
+        "typescript": "^4.0.5",
+        "webpack": "^5.4.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-userscript": "^2.5.7"
+    },
+    "dependencies": {}
+}
