@@ -17,8 +17,6 @@ export default class NotificationService {
 
     public static async notify (title: string, text: string): Promise<void> {
 
-        console.log("Sending notification", ...arguments);
-
         const hasPermission = await NotificationService.hasPermission();
         if (hasPermission === false) return;
 
