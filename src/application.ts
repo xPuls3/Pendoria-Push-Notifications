@@ -7,7 +7,7 @@ declare const window: any;
 export class Application {
 
     public static title: string = "Pendoria Push Notifications";
-    public static version: string = "0.1.0-alpha";
+    public static version: string = "0.1.0-alpha.1";
 
     public static initialize (): void {
 
@@ -30,7 +30,7 @@ export class Application {
         if (channel === "/global") return;
 
         if (channel.startsWith("guild/")) channel = "/guild";
-        if (channel.startsWith("/")) channel = Utility.capitalizeString(message);
+        if (channel.startsWith("/")) channel = Utility.capitalizeString(channel);
 
         const element = window.document.createElement("div");
         element.innerHTML = message;

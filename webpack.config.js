@@ -17,7 +17,7 @@ module.exports = {
                 "name": "Pendoria Push Notifications",
                 "namespace": "https://xpuls3.github.io/",
                 "include": "/^https?:\\/\\/(?:.+\\.)?pendoria\\.net\\/?(?:.+)?$/",
-                "version": "0.1.0-alpha",
+                "version": "0.1.0-alpha.1",
                 "author": "Puls3",
                 "homepage": "https://github.com/xPuls3/Pendoria-Push-Notifications",
                 "supportURL": "https://github.com/xPuls3/Pendoria-Push-Notifications/issues",
